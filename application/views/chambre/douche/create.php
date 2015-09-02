@@ -12,12 +12,12 @@
 <h5>individuelle</h5>
 <?php echo form_radio('d_appartenance', 'individuel', TRUE); ?>
 <h5>commune</h5>
-<?php echo form_radio('d_appartenance', 'individuel', TRUE); ?>
+<?php echo form_radio('d_appartenance', 'commune', TRUE); ?>
 
 <h5>moderne</h5>
 <?php echo form_radio('d_luxe', 'individuel', TRUE); ?>
 <h5>traditionnelle</h5>
-<?php echo form_radio('d_luxe', 'individuel', TRUE); ?>
+<?php echo form_radio('d_luxe', 'traditionnelle', TRUE); ?>
 
 <h5>interne</h5>
 <?php echo form_radio('d_position', 'interne', TRUE); ?>
